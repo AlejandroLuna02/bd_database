@@ -4,7 +4,7 @@ import com.basedatos.basededatos.models.MakerModel;
 
 import java.util.List;
 
-public interface MarkerDao {
+public interface  MarkerDao {
 
     List<MakerModel> getAll();
     MakerModel get( long id);
