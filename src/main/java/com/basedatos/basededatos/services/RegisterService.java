@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 @Service
-@CrossOrigin(origins = "http://52.21.61.90/register/create")
+@CrossOrigin
 public class RegisterService {
 
     @Autowired
